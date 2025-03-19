@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates | Sai</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .certificates-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .certificate {
+            width: 600px;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .certificate:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Portfolio Website</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="#">Certificates</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="certificates">
+        <h2 class="heading"><i class="fas fa-award"></i> My <span>Certificates</span></h2>
+        <div class="certificates-container">
+            <a href="assets/certificates/tiger_certified analytics associate.pdf" target="_blank">
+                <img src="assets/certificates/Tiger.png" alt="Certificate 1" class="certificate">
+            </a>
+            <a href="assets/certificates/Deep Learning Specialization.pdf" target="_blank">
+                <img src="assets/certificates/deep learning.png" alt="Certificate 2" class="certificate">
+            </a>
+            <a href="assets/certificates/Applied Data Science.pdf" target="_blank">
+                <img src="assets/certificates/Applied data science.png" alt="Certificate 3" class="certificate">
+            </a>
+            <a href="assets/certificates/Machine Learning Certificate.pdf" target="_blank">
+              <img src="assets/certificates/ml.png" alt="Certificate 3" class="certificate">
+          </a>
+          <a href="assets/certificates/Introduction to Tensorflow for AI,ML and DL.pdf" target="_blank">
+            <img src="assets/certificates/Tensorflow.png" alt="Certificate 3" class="certificate">
+        </a>
+        <a href="assets/certificates/CertificateOfCompletion_Agile Foundations.pdf" target="_blank">
+          <img src="assets/certificates/agile.png" alt="Certificate 3" class="certificate">
+      </a>
+            <!-- Add more certificates as needed -->
+        </div>
+    </section>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
