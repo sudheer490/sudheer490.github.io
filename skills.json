@@ -1,81 +1,38 @@
 [
-    {
-        "name": "Tableau",
-        "icon": "https://img.icons8.com/color/48/000000/tableau-software.png"
-    },
-    {
-        "name": "Power BI",
-        "icon": "https://img.icons8.com/color/48/000000/power-bi.png"
-    },
-    {
-        "name": "Excel",
-        "icon": "https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png"
-    },
-    {
-        "name": "Looker Studio",
-        "icon": "https://img.icons8.com/color/48/000000/google-looker.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "name": "Oracle",
-        "icon": "https://img.icons8.com/color/48/000000/oracle-logo.png"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "C#",
-        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo-2.png"
-    },
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-   
-   
-    
-    
-  
-    {
-        "name": "Jira",
-        "icon": "https://img.icons8.com/color/48/000000/jira.png"
-    },
-    
-    {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Jenkins",
-        "icon": "https://img.icons8.com/color/48/000000/jenkins.png"
-    },
-    {
-        "name": "ETL",
-        "icon": "https://img.icons8.com/external-outline-black-m-oki-orlando/48/FFFFFF/external-etl-data-science-outline-outline-black-m-oki-orlando.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }
-       
+  {"name": "Python", "category": "Programming", "icon": "https://img.icons8.com/color/48/python--v1.png"},
+  {"name": "SQL", "category": "Programming", "icon": "https://img.icons8.com/color/48/sql.png"},
+  {"name": "JavaScript", "category": "Programming", "icon": "https://img.icons8.com/color/48/javascript--v1.png"},
+  {"name": "HTML5", "category": "Programming", "icon": "https://img.icons8.com/color/48/html-5--v1.png"},
+  {"name": "CSS3", "category": "Programming", "icon": "https://img.icons8.com/color/48/css3.png"},
+
+  {"name": "MySQL", "category": "Data & Databases", "icon": "https://img.icons8.com/color/48/mysql-logo.png"},
+  {"name": "PostgreSQL", "category": "Data & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"},
+  {"name": "Excel", "category": "Data & Databases", "icon": "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png"},
+
+  {"name": "Scikit-learn", "category": "Machine Learning & AI", "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"},
+  {"name": "TensorFlow", "category": "Machine Learning & AI", "icon": "https://img.icons8.com/color/48/tensorflow.png"},
+  {"name": "XGBoost", "category": "Machine Learning & AI", "icon": "https://img.icons8.com/color/48/artificial-intelligence.png"},
+  {"name": "NLP", "category": "Machine Learning & AI", "icon": "https://img.icons8.com/color/48/brain-3.png"},
+  {"name": "Time Series", "category": "Machine Learning & AI", "icon": "https://img.icons8.com/color/48/combo-chart--v1.png"},
+  {"name": "Model Monitoring", "category": "Machine Learning & AI", "icon": "https://img.icons8.com/color/48/activity-history.png"},
+
+  {"name": "LangChain", "category": "Generative AI", "icon": "https://img.icons8.com/color/48/chain.png"},
+  {"name": "OpenAI", "category": "Generative AI", "icon": "https://img.icons8.com/ios-filled/50/0B8F87/chatgpt.png"},
+  {"name": "RAG", "category": "Generative AI", "icon": "https://img.icons8.com/color/48/knowledge-sharing.png"},
+  {"name": "Vector Databases", "category": "Generative AI", "icon": "https://img.icons8.com/color/48/database.png"},
+  {"name": "Prompt Engineering", "category": "Generative AI", "icon": "https://img.icons8.com/color/48/bot.png"},
+  {"name": "PEFT", "category": "Generative AI", "icon": "https://img.icons8.com/color/48/settings--v1.png"},
+
+  {"name": "AWS", "category": "Cloud & Tools", "icon": "https://img.icons8.com/color/48/amazon-web-services.png"},
+  {"name": "SageMaker", "category": "Cloud & Tools", "icon": "https://img.icons8.com/color/48/amazon-web-services.png"},
+  {"name": "Docker", "category": "Cloud & Tools", "icon": "https://img.icons8.com/color/48/docker.png"},
+  {"name": "GitHub", "category": "Cloud & Tools", "icon": "https://img.icons8.com/ios-glyphs/48/0B8F87/github.png"},
+  {"name": "Jira", "category": "Cloud & Tools", "icon": "https://img.icons8.com/color/48/jira.png"},
+
+  {"name": "Power BI", "category": "Visualization", "icon": "https://img.icons8.com/color/48/power-bi.png"},
+  {"name": "Tableau", "category": "Visualization", "icon": "https://img.icons8.com/color/48/tableau-software.png"},
+  {"name": "Streamlit", "category": "Visualization", "icon": "https://img.icons8.com/color/48/combo-chart--v1.png"},
+  {"name": "Dash", "category": "Visualization", "icon": "https://img.icons8.com/color/48/dashboard-layout.png"},
+  {"name": "Matplotlib", "category": "Visualization", "icon": "https://img.icons8.com/color/48/line-chart.png"},
+  {"name": "Seaborn", "category": "Visualization", "icon": "https://img.icons8.com/color/48/area-chart.png"}
 ]
